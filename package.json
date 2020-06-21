@@ -1,0 +1,21 @@
+{
+  "name": "docker_web_app",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Node.js on Docker",
+  "author": "A. Developer <a.developer@example.com>",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.3",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.4"
+  }
+}
